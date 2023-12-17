@@ -1,0 +1,29 @@
+.header{
+    background-color: #1f2937;
+    border-color: #1f2937;
+}
+body, html{
+    margin: 0;
+    padding: 0;
+}
+a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+.main-header{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#header-text{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+nav{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
