@@ -14,11 +14,19 @@ a{
 .header p{
     color: #F9FAF8;
 }
-.main-header, .info-header{
+.main-header{
     display: flex;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
+.info-header{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #header-text{
     font-size: 24px;
 }
@@ -26,10 +34,19 @@ a{
 .hero-text{
     font-size: 48px;
     font-weight: bolder;
+    margin-bottom: 0px;
 }
 
 .inner{
+    display: flex;
+    flex-direction: column;
     width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.inside{
+    margin-top: 0px;
+    margin-bottom: 100px;
 }
 nav{
     display: flex;
@@ -37,4 +54,21 @@ nav{
     align-items: center;
     justify-content: center;
     gap: 10px;
+}
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    display: block;
+}
+.image{
+    width: 400px;
+    height: 200px;
+    border: 5px solid red;
+    align-self: center;
+}
+img{
+    width: 230px;
+    height: auto;
+
 }
