@@ -72,3 +72,26 @@ img{
     height: auto;
 
 }
+.info-text{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 30px;
+    color: #1f2937;
+}
+.image-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.items{
+    width: 235px;
+}
+.text{
+    text-align: center;
+}
+img{
+    border-radius: 10px;
+}
