@@ -84,6 +84,7 @@ img{
     justify-content: space-between;
     margin-left: 100px;
     margin-right: 100px;
+    flex-wrap: wrap;
 }
 
 .items{
@@ -94,4 +95,20 @@ img{
 }
 img{
     border-radius: 10px;
+}
+.quote-section{
+    background-color: #E5E7EB;
+    padding: 20px;
+    display: flex;
+    margin-top: 50px;
+
+}
+.quote{
+    font-size: 36px;
+    text-align: center;
+    font-weight: lighter;
+    color: #1F2937;
+}
+.author{
+    align-self: flex-end;
 }
