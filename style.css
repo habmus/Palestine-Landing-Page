@@ -112,3 +112,19 @@ img{
 .author{
     align-self: flex-end;
 }
+.call-action{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+    color: #F9FAF8;
+
+}
+footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
